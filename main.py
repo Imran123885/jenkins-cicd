@@ -16,6 +16,7 @@ origins = [
     '*'
 ]
 
+# Adding middleware for more verbose RESTful api
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
